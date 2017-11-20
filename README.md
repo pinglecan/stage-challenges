@@ -1,4 +1,4 @@
-# Lyfter - Stage Challenges
+# Lyfter - Intern Challenges
 
 ## Fork this repo to work on the challenges.
 - Start with the challenge in folder '1'
