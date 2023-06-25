@@ -4,9 +4,15 @@ function Numbers_to_roman(input){
         if(input >= 1000){
             input -= 1000
             roman_numerals += 'M'
+        }else if(input >= 900){
+            input -= 900
+            roman_numerals += 'CM'
         }else if(input >= 500){
             input -= 500
             roman_numerals +='D'
+        }else if(input >= 400){
+            input -= 400
+            roman_numerals +='CD'
         }else if(input >= 100){
             input -= 100
             roman_numerals +='C'
@@ -41,8 +47,6 @@ function Numbers_to_roman(input){
     return roman_numerals
 
 }
-
-console.log(Numbers_to_roman(5))
 
 let user_input = prompt('give a number');
 
